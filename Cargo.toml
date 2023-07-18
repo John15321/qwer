@@ -12,5 +12,4 @@ authors = ["Jan Bronicki janbronicki@gmail.com"]
 
 [dependencies]
 
-
 [dev-dependencies]

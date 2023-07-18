@@ -13,10 +13,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: Install latest ${{ matrix.toolchain }}
+            - name: Install latest stable Rust
               uses: actions-rs/toolchain@v1
               with:
-                toolchain: ${{ matrix.toolchain }}
+                toolchain: stable
             - uses: actions/cache@v3
               with:
                   path: |
