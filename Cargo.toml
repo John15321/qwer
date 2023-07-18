@@ -2,7 +2,7 @@
 name = "qwer"
 # Do not touc the version number
 # It will be changed dynamically by the CI
-version = "0.0.0"
+version = "1.0.0"
 edition = "2021"
 description = "Prints out Hello World!"
 authors = ["Jan Bronicki janbronicki@gmail.com"]
